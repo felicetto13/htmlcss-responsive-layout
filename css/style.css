@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-primary: #0084FD;
+    --bg-primary-light: #B5DDFF;
+    --bg-secondary: #9792E3;
+    --bg-yellow:#FDC05F;
+    --bg-footer: #333333;
+}
+
+/* SELECTORS TAGS */
+
+header {
+    background-color: var(--bg-primary);
+}
+footer {
+    background-color: var(--bg-footer);
+}
+
+
+/* CLASSES TAGS */
+
+/*  common classes */
+
+.section {
+    padding: 2rem 0;
+}
+.container {
+    width: 990px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+.bg-primary-light {
+    background-color: var(--bg-primary-light);
+}
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+/* Padding and margin */
+
+/* header */
+
+/* main */
+
+/* footer */
