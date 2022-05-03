@@ -91,6 +91,9 @@ h3 {
     flex-direction: column;
     justify-content: flex-end;
 }
+.align-self-center {
+    align-self: center;
+}
 .align-self-end {
     align-self: flex-end;
 }
@@ -212,6 +215,9 @@ h3 {
 .padding-bottom-8 {
     padding-bottom: 8rem;
 }
+.margin-bottom-1 {
+    margin-bottom: 1rem;
+}
 .margin-bottom-2 {
     margin-bottom: 2rem;
 }
@@ -226,20 +232,20 @@ h3 {
 }
 /* main */
 
-.card-half, .card-image {
+.card-half, .card-image-absolute {
     flex-basis: 50%;
 }
-.card-image {
+.card-image-absolute {
     position: relative;
     overflow: hidden;
     margin-bottom: -2rem;
 }
-.card-image img {
+.card-image-absolute img {
     width: 70%;
     bottom: 0;
     position: absolute;
 }
-.card-logo, .card-title, .card-description, .card-button {
+.card-logo, .card-title, .card-description, .card-button, .card-image {
     padding: .75rem 0;
 }
 .card-logo {
@@ -258,8 +264,21 @@ h3 {
 .img-50-w {
     width: 50%;
 }
+.btn-round i {
+    width: 1rem;
+    line-height: 1rem;
+}
 .img-90-w {
     width: 90%;
+}
+.img-round {
+    width: 70%;
+    margin: 0 auto;
+}
+.img-round img {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 
