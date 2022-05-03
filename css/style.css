@@ -42,6 +42,15 @@ a {
 img {
     max-width: 100%;
 }
+h1{
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
 
 /* CLASSES TAGS */
 
@@ -68,8 +77,22 @@ img {
 .bg-white{
     background-color: var(--bg-white);
 }
+.text-white {
+    color: white;
+}
+.text-secondary {
+    color: var(--bg-secondary);
+}
 .d-flex {
     display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.align-self-end {
+    align-self: flex-end;
 }
 .wrapping {
     flex-wrap: wrap;
@@ -89,6 +112,8 @@ img {
     text-align: center;
 }
 .btn-round {
+    font-size: 1.25rem;
+    padding: .75rem 1rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -124,6 +149,9 @@ img {
 }
 .col-2 {
     flex-basis: calc((100%/3)*2 - 1rem) ;
+}
+.col-2-sm {
+    flex-basis: calc(100%/2) ;
 }
 .col-3 {
     flex-basis: 100%;
@@ -184,6 +212,12 @@ img {
 .padding-bottom-8 {
     padding-bottom: 8rem;
 }
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+.margin-bottom-3 {
+    margin-bottom: 3rem;
+}
 /* header */
 
 .navbar ul li a {
@@ -220,6 +254,12 @@ img {
 }
 .card .padding-lr-2 .padding-tb2 img {
     width: 70%;
+}
+.img-50-w {
+    width: 50%;
+}
+.img-90-w {
+    width: 90%;
 }
 
 
