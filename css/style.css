@@ -88,6 +88,13 @@ img {
     border-radius: 30px;
     text-align: center;
 }
+.btn-round {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 .btn-lg {
     padding: .75rem 2.5rem;
 }
@@ -210,6 +217,9 @@ img {
 }
 .card-description {
     color: gray;
+}
+.card .padding-lr-2 .padding-tb2 img {
+    width: 70%;
 }
 
 
